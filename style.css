@@ -14,3 +14,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 .services-section{padding:69px 0}.services-section .section-heading{margin-bottom:30px}.services-section .service-card{padding:8px 8px 8px;min-height:169px}.contact-detail-icon svg{display:block;width:9px;height:9px}
 @media(max-width:168px){.services-section{padding:50px 0}}
+.hero-download{margin-top:14px}
