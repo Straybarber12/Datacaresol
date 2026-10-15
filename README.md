@@ -1,4 +1,4 @@
-# SteveProject — Steve Data Protection Services
+# DataCare Compliance Solutions
 
 A responsive, multi-section business website built with HTML, CSS and vanilla JavaScript.
 

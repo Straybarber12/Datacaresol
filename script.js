@@ -29,7 +29,7 @@ document.getElementById('enquiry-form').addEventListener('submit', (event) => {
 
   const subject = encodeURIComponent(`Website enquiry: ${service}`);
   const body = encodeURIComponent(
-    `Hello Steve,\n\nMy name is ${name}.\nOrganisation: ${organisation || 'Not provided'}\nService of interest: ${service}\n\nDetails:\n${message || 'I would like to discuss my organisation’s data protection needs.'}\n\nPlease let me know the next steps.\n\nKind regards,\n${name}`
+    `Hello DataCare Compliance Solutions team,\n\nMy name is ${name}.\nOrganisation: ${organisation || 'Not provided'}\nService of interest: ${service}\n\nDetails:\n${message || 'I would like to discuss my organisation’s data protection needs.'}\n\nPlease let me know the next steps.\n\nKind regards,\n${name}`
   );
   document.getElementById('form-status').textContent = 'Opening your email app with the enquiry prepared…';
   window.location.href = `mailto:stephenkufa01@gmail.com?subject=${subject}&body=${body}`;
